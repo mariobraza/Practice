@@ -101,6 +101,16 @@ if a > b:
 else:
   max_num = b
 if c > max_num:
-  print(c)
-else:
-  print(max_num)
+  max_num = c
+print(max_num)
+
+
+a = int(input('Введите число 1: '))
+b = int(input('Введите число 2: '))
+c = int(input('Введите число 3: '))
+if c < a > b:
+    print(a)
+if c < b > a:
+    print(b)
+if a < c > b:
+    print(c)
