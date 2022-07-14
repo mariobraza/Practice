@@ -19,3 +19,19 @@ while numb != 0:
   summ += last_numb
   numb //=10
 print(summ)
+
+
+money = int(input('Введите количество денег: '))
+while money < 10000:
+  cube_numb = int(input('Введите число на кубике от 1 до 6: '))
+  if cube_numb == 3:
+    print('Вы проиграли всё!')
+    money = 0
+    break
+    print('Вы всё проиграли!')
+    print('Игра закончилась')
+    print('Итого осталось: ', money, 'рублей.')
+  money += 500
+  print('Выйграли 500 рублей!')
+print('Игра закончилась')
+print('Итого осталось: ', money, 'рублей.')
