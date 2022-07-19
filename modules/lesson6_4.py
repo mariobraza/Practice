@@ -15,3 +15,11 @@ while True:
   if question == 0:
     print('Приложение закрывается...')
     break
+
+
+while True:
+  print('Компьютер заблокирован. Вернёшь скейт — скажу код разблокировки!')
+  password = input('Введите код: ')
+  if password == '0550':
+    print('Код верный, завершаю работу...')
+    break
