@@ -105,4 +105,45 @@ year = 0
 while deposit <= target:
   deposit += deposit * percent // 100
   year += 1
-print(year)
+if 10 <= year % 100 <= 20:
+  pr_year = "лет"
+elif year % 10 == 1:
+  pr_year = "год"
+elif 1 < year % 10 <= 4:
+  pr_year = "года"
+elif (5 <= year % 10) or (year % 10 <= 9) or (year % 10 == 0):
+  pr_year = "лет"
+print(year, pr_year, "пройдет прежде, чем ты сможеш забрать сумму в размере", target, "рублей")
+
+
+
+
+son = 0
+count = 0
+while son != 7:
+  son = int(input('Какое чиcло я загадал? от 1 до 10: '))
+  count += 1
+  if son < 7:
+    print('Число меньше, чем нужно. Попробуйте ещё раз!')
+  elif son > 7:
+    print('Число больше, чем нужно. Попробуйте ещё раз!')
+  else:
+    print('Вы угадали! Число попыток: ', count)
+
+
+
+
+x = 0
+a = 1
+b = 100
+while x != 1:
+  y = a + (b - a) // 2
+  print(y)
+  x = int(input('Твоё число равно(1), больше(2) или меньше(3), чем число?'))
+  if x == 1:
+    break
+  elif x == 2:
+    a = (b + a) // 2 + 1
+  else:
+    b = (b + a) // 2 - 1
+print('Загадал число: ', y)
