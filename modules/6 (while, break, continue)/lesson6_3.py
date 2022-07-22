@@ -8,7 +8,7 @@ while temp > 15:
   meters +=10
 print(meters)
 
-
+###################################
 numb = int(input('Введите число: '))
 summ = 0
 while numb != 0:
@@ -20,7 +20,7 @@ while numb != 0:
   numb //=10
 print(summ)
 
-
+###################################
 money = int(input('Введите количество денег: '))
 while money < 10000:
   cube_numb = int(input('Введите число на кубике от 1 до 6: '))

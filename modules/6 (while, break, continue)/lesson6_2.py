@@ -5,7 +5,7 @@ while number != 0:
  number = int(input('Введите число: '))
 print(summ)
 
-
+###################################
 
 password = int(input('Введите пароль: '))
 while password != 235:
@@ -13,7 +13,7 @@ while password != 235:
   password = int(input('Попробуйте ещё раз: '))
 print('Пароль верный! Добро пожаловать.')
 
-
+###################################
 
 donate = int(input('How much?: '))
 summ = 0

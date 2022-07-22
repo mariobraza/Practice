@@ -3,6 +3,8 @@ second = '"И не последняя!"'
 print(first)
 print(second)
 
+###################################
+
 my_color = 'Зелёный'
 sport = 'Бег'
 name = 'Иван'

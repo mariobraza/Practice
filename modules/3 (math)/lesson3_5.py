@@ -5,6 +5,7 @@ apple_remains = number_of_apples % box_capacity
 print('Мы сможем заполнить', box_result, 'ящиков')
 print(apple_remains, 'т. яблок останется')
 
+###################################
 
 number = int(input('Введите номер: '))
 print('Номер квартиры: ', number // 10)

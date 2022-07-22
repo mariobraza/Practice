@@ -39,4 +39,4 @@ if all_count_Dinar < all_count_Marat:
 elif all_count_Dinar > all_count_Marat:
   print('У Джуна Марата сумма всех итераций меньше на', all_count_Dinar - all_count_Marat)
 else:
-  print('Количество итераций равно')
+  print('Количество итераций равно, идите оба спать')

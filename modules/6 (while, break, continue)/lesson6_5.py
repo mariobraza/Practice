@@ -5,7 +5,7 @@ while exit_str_counts < str_counts:
   exit_str_counts += 1
 
 
-
+###################################
 
 timer = int(input('Cколько раз Вам напомнить?: '))
 timer2 = 0
@@ -14,7 +14,7 @@ while timer2 < timer:
   timer2 += 1
 
 
-
+###################################
 
 bags = int(input('Введите количество мешков: '))
 bags_count = 0
