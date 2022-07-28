@@ -139,11 +139,9 @@ else:
 
 n = int(input('Введите количество карточек: '))
 summ_n = 0
-remains = 0
 for game in range(1, n + 1):
   summ_n += game
 for numb in range(1, n):
   x = int(input('Введите номер оставшейся карточки: '))
-  remains = summ_n - x
   summ_n -= x
-print ('Номер пропавшей карточки: ', remains)
+print ('Номер пропавшей карточки: ', summ_n)
